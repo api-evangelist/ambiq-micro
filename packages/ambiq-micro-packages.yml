@@ -1,0 +1,47 @@
+generated: '2026-07-17'
+method: searched
+source: https://pypi.org/user/AmbiqAI/ + https://github.com/AmbiqAI
+packages:
+  - language: python
+    registry: pypi
+    name: neuralspotx
+    url: https://pypi.org/project/neuralspotx/
+    install: pip install neuralspotx
+    version: 0.7.8
+    official: true
+    description: Workspace-first Python tooling, app bootstrap and CLI for bare-metal Ambiq (neuralSPOT) applications.
+    source: https://github.com/AmbiqAI/neuralspotx
+  - language: python
+    registry: pypi
+    name: heartkit
+    url: https://pypi.org/project/heartkit/
+    install: pip install heartkit
+    version: 1.8.0
+    official: true
+    description: AI-driven heart-monitoring kit for ultra-low-power wearables on Ambiq SoCs.
+    source: https://github.com/AmbiqAI/heartkit
+  - language: python
+    registry: pypi
+    name: sleepkit
+    url: https://pypi.org/project/sleepkit/
+    install: pip install sleepkit
+    version: 0.11.1
+    official: true
+    description: AI-driven sleep-monitoring kit for ultra-low-power wearables on Ambiq SoCs.
+    source: https://github.com/AmbiqAI/sleepkit
+  - language: python
+    registry: pypi
+    name: physiokit
+    url: https://pypi.org/project/physiokit/
+    install: pip install physiokit
+    version: 0.11.0
+    official: true
+    description: physioKIT - toolkit to process raw ambulatory bio-signals.
+    source: https://github.com/AmbiqAI/physiokit
+notes: >-
+  Ambiq's core embedded developer surface (AmbiqSuite SDK, neuralSPOT AI SDK/Toolkit)
+  is distributed as C/C++ source via GitHub (github.com/AmbiqAI, github.com/AmbiqMicro),
+  not through a web-package registry. The PyPI packages above are Ambiq's first-party
+  Python AI toolkits (author "Ambiq AI <support.aitg@ambiq.com>"). The PyPI name
+  "soundkit" is an unrelated third-party project and is deliberately excluded; Ambiq's
+  soundKIT lives only at github.com/AmbiqAI/soundkit.

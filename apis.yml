@@ -1,9 +1,29 @@
 aid: ambiq-micro
 name: Ambiq Micro
-description: 'Ambiq Micro is a company surfaced as a portfolio company of kleiner-perkins and added to
-  the API Evangelist network as a stub for enrichment. Sector: hardtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Ambiq Micro is a semiconductor company that designs ultra-low-power System-on-Chip (SoC)
+  solutions for battery-powered and endpoint-AI devices. Its proprietary Subthreshold
+  Power Optimized Technology (SPOT) platform lets its Apollo family of Arm Cortex-M
+  microcontrollers and Artasie real-time clocks run at extremely low energy, powering
+  wearables, hearables, healthcare, smart-home, industrial and gaming devices. Ambiq's
+  developer surface is an embedded C/C++ toolchain - the AmbiqSuite SDK and the open-source
+  neuralSPOT AI SDK/Toolkit - plus a set of first-party Python AI toolkits (heartKIT,
+  sleepKIT, physioKIT, neuralspotx) published on PyPI and GitHub (AmbiqAI, AmbiqMicro).
+  This is not a web/REST API provider; it is profiled here for its open-source developer
+  and AI SDK footprint.
 url: https://raw.githubusercontent.com/api-evangelist/ambiq-micro/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://ambiq.com/wp-content/uploads/2023/09/ambiq-visual.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -16,6 +36,14 @@ modified: '2026-07-17'
 tags:
 - Company
 - Hardtech
+- Semiconductors
+- Microcontrollers
+- Edge AI
+- Embedded
+- Low Power
+- SDK
+- Wearables
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,28 @@ maintainers:
 common:
 - type: Website
   url: https://ambiq.com
+- type: DeveloperPortal
+  url: https://ambiq.com/ai/sdk/
+- type: Documentation
+  url: https://ambiqai.github.io/neuralSPOT/
+- type: GitHubOrganization
+  url: https://github.com/AmbiqAI
+- type: Blog
+  url: https://ambiq.com/blog/
+- type: Support
+  url: https://ambiq.com/support/
+- type: PrivacyPolicy
+  url: https://ambiq.com/privacy-policy/
+- type: TermsOfService
+  url: https://ambiq.com/terms-and-conditions/
+- type: Packages
+  url: packages/ambiq-micro-packages.yml
+- type: SDKs
+  url: packages/ambiq-micro-packages.yml
+- type: DomainSecurity
+  url: security/ambiq-micro-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
