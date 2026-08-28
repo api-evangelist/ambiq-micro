@@ -12,6 +12,17 @@ description: >-
   This is not a web/REST API provider; it is profiled here for its open-source developer
   and AI SDK footprint.
 url: https://raw.githubusercontent.com/api-evangelist/ambiq-micro/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
