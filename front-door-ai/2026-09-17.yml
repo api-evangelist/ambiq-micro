@@ -1,0 +1,31 @@
+# Front Door AI Index — ambiq-micro — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ambiq-micro
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: ambiq.com
+  final_host: ambiq.com
+  ownership: own
+  owner: ambiq-micro
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 46
+  host_score: 46
+  density: 25.53
+  words: 1802
+  tiers:
+    agentic: 0
+    core: 45
+    model: 1
+  ambiguous: 23
+  top_terms:
+    AI: 38
+    intelligence: 15
+    smart: 8
+    artificial intelligence: 5
+    ChatGPT: 1
+    deep learning: 1
+    neural network: 1
