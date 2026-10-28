@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ambiq Micro is a company surfaced as a portfolio company of kleiner-perkins and added to the API Evangelist network as a stub for enrichment. Sector: hardtech. This profile is a lead awaiting the enrichment pipeline.
+Ambiq Micro is a semiconductor company that designs ultra-low-power System-on-Chip (SoC) solutions for battery-powered and endpoint-AI devices. Its proprietary Subthreshold Power Optimized Technology (SPOT) platform lets its Apollo family of Arm Cortex-M microcontrollers and Artasie real-time clocks run at extremely low energy, powering wearables, hearables, healthcare, smart-home, industrial and gaming devices. Ambiq's developer surface is an embedded C/C++ toolchain - the AmbiqSuite SDK and the open-source neuralSPOT AI SDK/Toolkit - plus a set of first-party Python AI toolkits (heartKIT, sleepKIT, physioKIT, neuralspotx) published on PyPI and GitHub (AmbiqAI, AmbiqMicro). This is not a web/REST API provider; it is profiled here for its open-source developer and AI SDK footprint.
 
-Backed by: kleiner-perkins — https://ambiq.com
+**Areas:** Company · Hardtech · Semiconductors · Microcontrollers · Edge AI · Embedded · Low Power · SDK · Wearables · IoT
+
+## Ambiq Micro on APIs.io
+
+Everything profiled for Ambiq Micro is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ambiq-micro/](https://apis.io/providers/ambiq-micro/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ambiq Micro Domain Security](https://apis.io/security/ambiq-micro/ambiq-micro-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ambiq.com)
+- [Documentation](https://ambiqai.github.io/neuralSPOT/)
+- [Support](https://ambiq.com/support/)
+- [Blog](https://ambiq.com/blog/)
+- [Terms of service](https://ambiq.com/terms-and-conditions/)
+- [Privacy policy](https://ambiq.com/privacy-policy/)
+- [GitHub](https://github.com/AmbiqAI)
+
+## API Evangelist rating
+
+**Kin Score 15.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ambiq-micro/](https://apis.io/providers/ambiq-micro/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ambiq Micro: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ambiq-micro/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
